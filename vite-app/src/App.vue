@@ -29,7 +29,7 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 // State
 const scrolled = ref(false)
 const menuActive = ref(false)
-const activeTab = ref('all')
+const activeTab = ref('featured')
 const modalActive = ref(false)
 const selectedProject = ref(null)
 const currentTime = ref('--:--:--')
@@ -42,6 +42,7 @@ const githubStats = ref({ repos: FALLBACK_REPOS })
 const timerInterval = ref(null)
 
 const filteredProjects = computed(() => {
+    if (activeTab.value === 'featured') return PROJECTS.filter(p => p.featured)
     if (activeTab.value === 'all') return PROJECTS
     return PROJECTS.filter(p => p.category === activeTab.value)
 })

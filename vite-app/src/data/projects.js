@@ -61,6 +61,7 @@ export const PROJECTS = [
     },
     {
         id: 'hw-ssr1-movie-webapp',
+        featured: true,
         title: 'SSR1 電影資料爬蟲與 AI 問答網站',
         category: 'aiml',
         highlight: '100 部電影爬蟲 · SQLite + AI catalog chatbot',
@@ -117,6 +118,7 @@ export const PROJECTS = [
     },
     {
         id: 'proj-palbreed',
+        featured: true,
         title: 'PalBreed 幻獸帕魯培育規劃器',
         category: 'project',
         highlight: '配種路線 · 詞條繼承機率 · AI 建議',
@@ -158,6 +160,7 @@ export const PROJECTS = [
     },
     {
         id: 'hw-taiwan-weather-map',
+        featured: true,
         title: '台灣即時氣象視覺化地圖',
         category: 'aiml',
         highlight: '未使用 Windy API 或框架 · 自行實作類 Windy 風場效果',
@@ -172,6 +175,7 @@ export const PROJECTS = [
     },
     {
         id: 'aiml-ai-town',
+        featured: true,
         title: 'AI Town 多代理人社會模擬',
         category: 'aiml',
         highlight: '5 個 LLM 代理人 · 謠言傳播與關係系統 · 近零 LLM 成本',
@@ -185,6 +189,7 @@ export const PROJECTS = [
     },
     {
         id: 'aiml-servo-predictive-maintenance',
+        featured: true,
         title: 'AI 伺服馬達預測性維護系統',
         category: 'aiml',
         highlight: '健康分類 macro-F1 0.819 · 退化回歸 R² 0.944 · MLOps 閉環',
@@ -212,6 +217,7 @@ export const PROJECTS = [
     },
     {
         id: 'proj-mh-build-finder',
+        featured: true,
         title: 'Monster Hunter 多遊戲配裝搜尋器',
         category: 'project',
         highlight: '三代 MH 支援 · EFR 期望傷害排序 · 純前端 Web Worker',

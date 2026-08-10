@@ -15,8 +15,9 @@ const emit = defineEmits(['update:activeTab', 'open-modal'])
         </div>
 
         <div class="filter-tabs">
-            <button :class="{ 'active': activeTab === 'all' }" @click="emit('update:activeTab', 'all')">
-                <i class="fas fa-th-large"></i> All Works
+            <button :class="{ 'active': activeTab === 'featured' }"
+                    @click="emit('update:activeTab', 'featured')">
+                <i class="fas fa-star"></i> Featured
             </button>
             <button :class="{ 'active': activeTab === 'aiml' }" @click="emit('update:activeTab', 'aiml')">
                 <i class="fas fa-brain"></i> AI / ML
