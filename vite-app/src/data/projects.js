@@ -3,6 +3,12 @@ const BASE = import.meta.env.BASE_URL
 const sketchupBuildingImg = BASE + 'sources/sketchup-building-model.jpg'
 const sketchupEntranceImg = BASE + 'sources/sketchup-entrance-comparison.jpg'
 
+const ssr1MovieImg = BASE + 'sources/ssr1-movie.png'
+const palbreedImg = BASE + 'sources/palbreed.png'
+const scratchTeachingImg = BASE + 'sources/scratch-teaching.png'
+const mhBuildFinderImg = BASE + 'sources/mh-build-finder.png'
+const artaleRomioImg = BASE + 'sources/artale-romio.png'
+
 export const PROJECTS = [
     {
         id: 'hw-cosmos-img',
@@ -61,7 +67,6 @@ export const PROJECTS = [
     },
     {
         id: 'hw-ssr1-movie-webapp',
-        featured: true,
         title: 'SSR1 電影資料爬蟲與 AI 問答網站',
         category: 'aiml',
         highlight: '100 部電影爬蟲 · SQLite + AI catalog chatbot',
@@ -70,7 +75,7 @@ export const PROJECTS = [
         tags: ['Python', 'FastAPI', 'Next.js', 'SQLite', 'Web Scraping', 'AI Chatbot'],
         demoUrl: 'https://ssr1-movie-webapp.vercel.app/',
         githubUrl: 'https://github.com/ChenYuHsu413/ssr1-movie-webapp',
-        previewImage: 'https://raw.githubusercontent.com/ChenYuHsu413/ssr1-movie-webapp/main/web/public/posters/1.jpg',
+        previewImage: ssr1MovieImg,
         colorGradient: 'linear-gradient(135deg, #ef4444 0%, #7f1d1d 100%)',
         date: '2026'
     },
@@ -118,7 +123,6 @@ export const PROJECTS = [
     },
     {
         id: 'proj-palbreed',
-        featured: true,
         title: 'PalBreed 幻獸帕魯培育規劃器',
         category: 'project',
         highlight: '配種路線 · 詞條繼承機率 · AI 建議',
@@ -127,7 +131,7 @@ export const PROJECTS = [
         tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Zustand', 'AI Assistant'],
         demoUrl: 'https://chenyuhsu413.github.io/PalBreed/',
         githubUrl: 'https://github.com/ChenYuHsu413/PalBreed',
-        previewImage: 'https://opengraph.githubassets.com/palbreed/ChenYuHsu413/PalBreed',
+        previewImage: palbreedImg,
         colorGradient: 'linear-gradient(135deg, #22c55e 0%, #15803d 100%)',
         date: '2026'
     },
@@ -141,7 +145,7 @@ export const PROJECTS = [
         tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Scratch', 'Education'],
         demoUrl: 'https://chenyuhsu413.github.io/ScratchTeaching/',
         githubUrl: 'https://github.com/ChenYuHsu413/ScratchTeaching',
-        previewImage: 'https://opengraph.githubassets.com/scratch-teaching/ChenYuHsu413/ScratchTeaching',
+        previewImage: scratchTeachingImg,
         colorGradient: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
         date: '2026'
     },
@@ -217,7 +221,6 @@ export const PROJECTS = [
     },
     {
         id: 'proj-mh-build-finder',
-        featured: true,
         title: 'Monster Hunter 多遊戲配裝搜尋器',
         category: 'project',
         highlight: '三代 MH 支援 · EFR 期望傷害排序 · 純前端 Web Worker',
@@ -226,7 +229,7 @@ export const PROJECTS = [
         tags: ['TypeScript', 'Next.js', 'React', 'Web Worker', 'Tailwind CSS', 'Game Tool'],
         demoUrl: 'https://monster-hunter-rise-equipment-searc.vercel.app',
         githubUrl: 'https://github.com/ChenYuHsu413/Monster-Hunter-equipment-search-tool',
-        previewImage: 'https://opengraph.githubassets.com/mh-build-finder/ChenYuHsu413/Monster-Hunter-equipment-search-tool',
+        previewImage: mhBuildFinderImg,
         colorGradient: 'linear-gradient(135deg, #f43f5e 0%, #9333ea 100%)',
         date: '2026'
     },
@@ -240,7 +243,7 @@ export const PROJECTS = [
         tags: ['JavaScript', 'Vercel Serverless', 'Redis', 'Realtime', 'Game Tool'],
         demoUrl: 'https://artale-romio.vercel.app',
         githubUrl: 'https://github.com/ChenYuHsu413/Artale-Romio',
-        previewImage: 'https://opengraph.githubassets.com/artale-romio/ChenYuHsu413/Artale-Romio',
+        previewImage: artaleRomioImg,
         colorGradient: 'linear-gradient(135deg, #e11d48 0%, #7c3aed 100%)',
         date: '2026'
     },
